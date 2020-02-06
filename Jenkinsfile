@@ -13,7 +13,7 @@ pipeline {
 
     stage('unit test') {
       steps {
-        junit(testResults: 'surefile-reports/*.xml', allowEmptyResults: true)
+        junit(testResults: '**/*.xml', allowEmptyResults: true)
       }
     }
 
