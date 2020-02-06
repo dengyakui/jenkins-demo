@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="1.078" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.6.0_45\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\tfs2018agents\agent-2.133.3-win-10.233.87.143-1\_work\136\s"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\TFS-BU~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2012"/>
+    <property name="net.sourceforge.cobertura.datafile" value="E:\tfs2018agents\agent-2.133.3-win-10.233.87.143-1\_work\136\s\mmsp-pubs\target\cobertura\cobertura.ser"/>
+    <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\tfs2018agents\agent-2.133.3-win-10.233.87.143-1\externals\git\cmd;C:\Program Files\apache-ant-1.9.6\bin;C:\Program Files\7-Zip;C:\Perl\site\bin;C:\Perl\bin;C:\Sybase\DataAccess64\ADONET\dll;C:\Sybase\DataAccess\ADONET\dll;C:\Sybase\DataAccess64\ODBC\dll;C:\Sybase\DataAccess\ODBC\dll;C:\Sybase\DataAccess64\OLEDB\dll;C:\Sybase\DataAccess\OLEDB\dll;C:\Sybase\OCS-15_0\lib3p64;C:\Sybase\OCS-15_0\lib3p;C:\Sybase\OCS-15_0\dll;C:\Sybase\OCS-15_0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IBM\CICS Transaction Gateway\bin;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;C:\Program Files\CA\SCM;E:\Program Files\lineCount2;C:\Hansky\Firefly\Client\bin\java;C:\maven\bin;C:\curl-7.46.0-win64-mingw\bin;C:\Java\jdk1.6.0_45\bin;C:\Software\BMCPAT~1\common\globalc\bin\Windows-x86-64;C:\Software\BMCPAT~1\common\globalc\bin\Windows-x86;C:\Software\BMCPAT~1\Patrol3\bin;C:\Software\BMCPatrol\Patrol3\bin/patrol_x86;C:\Program Files\apache-ant-1.9.0\bin;C:\Java\jdk1.6.0_45\bin;E:\Program Files\md5;C:\maven\bin;E:\nodejs;E:\nodejs\global;E:\nodejs\cache;C:\putty;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\tfs-build"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tfs-build"/>
+    <property name="java.class.path" value="C:\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Java\jdk1.6.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f E:\tfs2018agents\agent-2.133.3-win-10.233.87.143-1\_work\136\s\mmsp-pubs\pom.xml -X -Dfile.encoding=UTF-8 -s &quot;C:\maven\conf\settings-test.xml&quot; clean package"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.6.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Java\jdk1.6.0_45\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="E:\tfs2018agents\agent-2.133.3-win-10.233.87.143-1\_work\136\s\mmsp-pubs\target\generated-classes\cobertura"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="getMarketingKanbanList" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.094"/>
+  <testcase name="getMarketingKanbanAward" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.515"/>
+  <testcase name="getKanbanSales" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.141"/>
+  <testcase name="getSaleRate" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.156"/>
+  <testcase name="getKanbanLargeOrder" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.032"/>
+  <testcase name="getKanbanMaxSale" classname="com.abchina.mmsp.marketing.controller.KanbanControllerTest" time="0.14"/>
+</testsuite>
