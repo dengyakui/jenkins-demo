@@ -8,12 +8,15 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+        sh 'touch surefire-reports/*.xml'
       }
     }
+
   }
   post {
-     always {
-            junit 'surefire-reports/**/*.xml'
-        }
+    always {
+      junit 'surefire-reports/**/*.xml'
+    }
+
   }
 }
