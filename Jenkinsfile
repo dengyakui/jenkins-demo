@@ -10,12 +10,10 @@ pipeline {
                 '''
       }
     }
-
-    stage('unit test') {
-      steps {
-        junit(testResults: '**/*.xml', allowEmptyResults: true)
-      }
-    }
-
+  }
+  post {
+     always {
+            junit 'surefile-reports/**/*.xml'
+        }
   }
 }
