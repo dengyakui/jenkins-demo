@@ -1,22 +1,10 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:7-alpine'
-    }
-
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
         sh 'echo "Hello World"'
-        sh 'node --version'
       }
-    }
-
-  }
-  post {
-    always {
-      junit 'surefire-reports/**/*.xml'
     }
 
   }
